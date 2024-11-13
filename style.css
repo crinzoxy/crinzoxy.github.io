@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/twilight-lechy');
+
+
+body{
+  background-color: black; /* Darkens the image with 30% black */
+  background-blend-mode: overlay;
+   background-repeat: no-repeat;
+   background-image: linear-gradient( 179.6deg, rgba(0,0,0,1) 0.2%, rgba(255,255,255,1) 99.8% );
+
+}
+
+body .content{
+  background: url(aurasonic.png) no-repeat top left 640px;
+  height: 1398px;
+  width: 1600px;
+  margin: 0 0 0 auto;
+  padding-left: 40px;
+}
+
+
+
+h1 {
+  color: white;
+  font-size: 70px;
+  padding: 25px 0 0;
+  font-size: 130px;
+  user-select: none;
+  font-family: 'twilight lechy', sans-serif;
+  font-family: 'Twilight Lechy Bold', sans-serif;
+}
+.algeria {
+  color: rgb(14, 202, 14);
+}
+
+/* Hover effect: Animate gradient background when hovering over the text */
+.algeria:hover {
+  background-position: 90% 40%; /* Animate the gradient on hover */
+}
+/*Social media colors*/
+.youtube {
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff0000, rgb(182, 62, 62), #ffffff);
+  background-size: 200% 200%; /* Ensure the gradient is large enough for animation */
+  -webkit-background-clip: text; /* For Chrome/Safari */
+  background-clip: text; /* For modern browsers */
+  -webkit-text-fill-color: transparent; /* For Chrome/Safari */
+  color: transparent; /* Redundant but safe */
+  transition: background-position 0.5s ease; /* Smooth transition for background */
+  display: inline-block;
+}
+
+/* Hover effect: Animate gradient background when hovering over the text */
+.youtube:hover {
+  background-position: 100% 50%;
+}
+
+
+.instagram {
+  font-weight: bold;
+  background: linear-gradient(45deg, #fd1d1d, #f56040, #ffdc80, #833ab4, #c13584, #ff18a3);
+  background-size: 400% 400%; /* Ensure the gradient is large enough for animation */
+  -webkit-background-clip: text; /* For Chrome/Safari */
+  background-clip: text; /* For modern browsers */
+  -webkit-text-fill-color: transparent; /* For Chrome/Safari */
+  color: transparent; /* Redundant but safe */
+  transition: background-position 0.5s ease; /* Smooth transition for background */
+  display: inline-block;
+  /* Hover effect: Animate gradient background when hovering over the text */
+}
+.instagram:hover { 
+  background-position: 100% 50%;
+}
+.github {
+  font-size: px; /* Set the font size */
+  font-weight: bold;
+  background: linear-gradient(45deg, #000000, #ffffff);
+  background-size: 200% 200%; /* Ensure the gradient is large enough for animation */
+  -webkit-background-clip: text; /* For Chrome/Safari */
+  background-clip: text; /* For modern browsers */
+  -webkit-text-fill-color: transparent; /* For Chrome/Safari */
+  color: transparent; /* Redundant but safe */
+  transition: background-position 0.5s ease; /* Smooth transition for background */
+  display: inline-block;
+  /* Hover effect: Animate gradient background when hovering over the text */
+}
+.github:hover {
+  
+  background-position: 100% 50%;
+}
+.discord {
+  color: rgb(73, 8, 171);
+}
+
+
+p{
+  margin: 5px 0 10px 10px;
+  padding-left: 00x;
+  font-weight: 600;
+  font-family: Helvetica Neue, Helvetica;
+  color: white;
+  display: block;
+  font-size: 20px;
+}
+
+
+footer {
+  user-select: none;
+  font-size: 50px;
+  font-family: 'twilight lechy', sans-serif;
+  font-family: 'Twilight Lechy Bold', sans-serif;
+  text-align: center;
+  padding-right: 20px;
+  padding: 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  margin: 0;
+
+}
+
+footer a {
+  color: #ff8c00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.play{
+  font-size: 35px;
+}
+
+
+
+
+
+::selection {
+  border-radius: 10px;
+  background-color: #ffc107; /* Light blue background */
+  color: #000000; /* White text color */
+}
