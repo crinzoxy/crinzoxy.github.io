@@ -12,3 +12,13 @@ document.addEventListener('selectionchange', () => {
         }, 4000); // 4000 milliseconds = 4 seconds
     }
 });
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "crinzoxy",
+  "url": "https://crinzoxy.github.io",
+  "sameAs": [
+    "https://www.linkedin.com/in/crinzoxy",
+    "https://x.com/crinzoxy"
+  ]
+}
